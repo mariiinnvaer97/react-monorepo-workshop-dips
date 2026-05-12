@@ -2,7 +2,8 @@
 import { useEffect, useState } from 'react'
 import { Spinner } from '@medix/ui'
 import { fetchPatients } from './lib/api'
-import { PatientDetailView, PatientListView } from './features/patients'
+import { PatientDetailView } from './features/patients/PatientDetailView'
+import { PatientListView } from './features/patients/PatientListView'
 import type { Patient } from './types'
 
 type PatientPageProps = {

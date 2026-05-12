@@ -64,8 +64,8 @@ function PageContentFallback({ resetErrorBoundary }: FallbackProps) {
     <section className="rounded-lg border bg-card p-6">
       <h2 className="text-lg font-semibold">Something went wrong</h2>
       <p className="mt-2 text-sm text-muted-foreground">
-        We could not load this page section. The app shell is still available, so
-        you can go back or try again.
+        We could not load this page section. The app shell is still available,
+        so you can go back or try again.
       </p>
       <Button type="button" className="mt-4" onClick={resetErrorBoundary}>
         Try again
